@@ -2,7 +2,7 @@ import React from "react";
 import apiKeys from "./apiKeys";
 import Clock from "react-live-clock";
 import Forcast from "./forcast";
-import loader from "./images/weathericon.jpg";
+// import loader from "./images/weathericons.jpg"
 import ReactAnimatedWeather from "react-animated-weather";
 const dateBuilder = (d) => {
   let months = [
@@ -184,7 +184,7 @@ class Weather extends React.Component {
     } else {
       return (
         <React.Fragment>
-          <img src={loader} style={{ width: "50%", WebkitUserDrag: "none" }} />
+          <img style={{ width: "50%", WebkitUserDrag: "none" }} />
           <h3 style={{ color: "white", fontSize: "22px", fontWeight: "600" }}>
             Detecting your location
           </h3>
